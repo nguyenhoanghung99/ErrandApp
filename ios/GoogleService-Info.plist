@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>148972146670-ib37a2duqusp847inb8s5r227uvqbobf.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.148972146670-ib37a2duqusp847inb8s5r227uvqbobf</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDdsY3YFe-APjTWsK5E6rHoTcq3a6HwZro</string>
+	<key>GCM_SENDER_ID</key>
+	<string>148972146670</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>vn.handsfree</string>
+	<key>PROJECT_ID</key>
+	<string>handsfree-a1b16</string>
+	<key>STORAGE_BUCKET</key>
+	<string>handsfree-a1b16.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:148972146670:ios:a826dc96bb4e3431b8c8ff</string>
+</dict>
+</plist>

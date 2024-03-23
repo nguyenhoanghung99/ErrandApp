@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "148972146670",
+    "project_id": "handsfree-a1b16",
+    "storage_bucket": "handsfree-a1b16.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148972146670:android:b3f0b5ae22e683d6b8c8ff",
+        "android_client_info": {
+          "package_name": "vn.handsfree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148972146670-gugfme5v51slka4obfjthiga6e8msake.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu9GhkEwmJH_cseAJAsewQF3bpE9gZlyM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "148972146670-gugfme5v51slka4obfjthiga6e8msake.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "148972146670-ib37a2duqusp847inb8s5r227uvqbobf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "vn.handsfree"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

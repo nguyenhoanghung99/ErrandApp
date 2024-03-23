@@ -1,0 +1,112 @@
+{
+  "api": {
+    "handsfreeapp": {
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "additionalAuthenticationProviders": [],
+          "defaultAuthentication": {
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7
+            },
+            "authenticationType": "API_KEY"
+          }
+        }
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "AppSync"
+    }
+  },
+  "auth": {
+    "handsfreeappd70b62a6": {
+      "customAuth": false,
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyCharacters": [],
+          "passwordPolicyMinLength": 8
+        },
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito"
+    }
+  },
+  "function": {
+    "handsfreeappS3Triggerde3a85cf": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "LambdaLayer"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_auth_handsfreeapp_nativeClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "handsfreeapp"
+        }
+      ]
+    },
+    "AMPLIFY_auth_handsfreeapp_userPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "handsfreeapp"
+        }
+      ]
+    },
+    "AMPLIFY_auth_handsfreeapp_userPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "handsfreeapp"
+        }
+      ]
+    },
+    "AMPLIFY_auth_handsfreeapp_webClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "handsfreeapp"
+        }
+      ]
+    },
+    "AMPLIFY_function_handsfreeappS3Triggerde3a85cf_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "handsfreeappS3Triggerde3a85cf"
+        }
+      ]
+    },
+    "AMPLIFY_function_handsfreeappS3Triggerde3a85cf_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "handsfreeappS3Triggerde3a85cf"
+        }
+      ]
+    }
+  },
+  "storage": {
+    "s3handsfreeappstorage03091f1e": {
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "S3"
+    }
+  }
+}

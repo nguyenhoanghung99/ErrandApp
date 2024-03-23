@@ -1,0 +1,35 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-handsfreeapp-dev-134559-authRole",
+      "UnauthRoleArn": "arn:aws:iam::203459463705:role/amplify-handsfreeapp-dev-134559-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::203459463705:role/amplify-handsfreeapp-dev-134559-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-handsfreeapp-dev-134559-deployment",
+      "UnauthRoleName": "amplify-handsfreeapp-dev-134559-unauthRole",
+      "StackName": "amplify-handsfreeapp-dev-134559",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:203459463705:stack/amplify-handsfreeapp-dev-134559/8b3b7080-cef2-11ee-a2ac-0a6bea22327d",
+      "AmplifyAppId": "d2hthhh3amoqzm"
+    },
+    "categories": {
+      "auth": {
+        "handsfreeapp": {
+          "nativeClientId": "4fgpdlj3i95bu26c23mehvcdff",
+          "userPoolId": "ap-southeast-1_BzGuDobHS",
+          "userPoolName": "handsfree-app",
+          "webClientId": "4fgpdlj3i95bu26c23mehvcdff"
+        },
+        "handsfreeappd70b62a6": {}
+      },
+      "function": {
+        "handsfreeappS3Triggerde3a85cf": {
+          "deploymentBucketName": "amplify-handsfreeapp-dev-134559-deployment",
+          "s3Key": "amplify-builds/handsfreeappS3Triggerde3a85cf-LambdaLayerVersion09449963-build.zip"
+        }
+      },
+      "storage": {
+        "s3handsfreeappstorage03091f1e": {}
+      }
+    }
+  }
+}
